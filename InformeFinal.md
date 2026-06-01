@@ -92,36 +92,36 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 ###### MAGERIT
 | Ref.   | Activo              | C | I | A | Au | T |
 |--------|---------------------|---|---|---|----|---|
-| INF-1  | Datos de negocio    | 10 | ? | ? | 6  | 6 |
-| SW-1   | Aplicación Web      | 3 | ? | ? | 5  | 4 |
+| INF-1  | Datos de negocio    | 10 | 9 | 8 | 6  | 6 |
+| SW-1   | Aplicación Web      | 3 | 8 | 7 | 5  | 4 |
 | SW-2   | Middleware          | 4 | 7 | 7 | 4  | 4 |
-| COM-1  | Comunicaciones      | ? | ? | 6 | 8  | 5 |
+| COM-1  | Comunicaciones      | 10 | 9 | 6 | 8  | 5 |
 | HW-1   | Servidor Ubuntu     | 4 | 7 | 7 | 4  | 5 |
 ###### ENS
 | Ref.  | Activo             | C | I | A | Au | T |
 |-------|--------------------|---|---|---|----|---|
-| INF-1 | Datos de negocio   | ? | ? | ? | ?  | ? |
-| SW-1  | Aplicación Web     | ? | ? | ? | ?  | ? |
-| SW-2  | Middleware         | ? | ? | ? | ?  | ? |
-| COM-1 | Comunicaciones     | ? | ? | ? | ?  | ? |
-| HW-1  | Servidor Ubuntu    | ? | ? | ? | ?  | ? |
+| INF-1 | Datos de negocio   | A | A | A | M  | M |
+| SW-1  | Aplicación Web     | B | A | M | M  | B |
+| SW-2  | Middleware         | B | M | M | B  | B |
+| COM-1 | Comunicaciones     | A | A | M | A  | M |
+| HW-1  | Servidor Ubuntu    | B | M | M | B  | M |
 ##### 🟢 Valor acumulado
 ###### MAGERIT
-| Ref.  | Activo            | C     | I     | A     | Au    | T     |
-|-------|-------------------|-------|-------|-------|-------|-------|
-| INF-1 | Datos de negocio  | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| SW-1  | Aplicación Web    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| SW-2  | Middleware        | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| COM-1 | Comunicaciones    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| HW-1  | Servidor Ubuntu   | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| Ref.   | Activo              | C | I | A | Au | T |
+|--------|---------------------|---|---|---|----|---|
+| INF-1  | Datos de negocio    | 10 | 9 | 8 | 6  | 6 |
+| SW-1   | Aplicación Web      | 10 | 9 | 8 | 6  | 6 |
+| SW-2   | Middleware          | 10 | 9 | 8 | 6  | 6 |
+| COM-1  | Comunicaciones      | 10 | 9 | 8 | 8  | 6 |
+| HW-1   | Servidor Ubuntu     | 10 | 9 | 8 | 8  | 6 |
 ###### ENS
-| Ref.  | Activo            | C     | I     | A     | Au    | T     |
-|-------|-------------------|-------|-------|-------|-------|-------|
-| INF-1 | Datos de negocio  | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| SW-1  | Aplicación Web    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| SW-2  | Middleware        | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| COM-1 | Comunicaciones    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-| HW-1  | Servidor Ubuntu   | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| Ref.  | Activo             | C | I | A | Au | T |
+|-------|--------------------|---|---|---|----|---|
+| INF-1 | Datos de negocio   | A | A | A | M  | M |
+| SW-1  | Aplicación Web     | A | A | A | M  | M |
+| SW-2  | Middleware         | A | A | A | M  | M |
+| COM-1 | Comunicaciones     | A | A | A | A  | M |
+| HW-1  | Servidor Ubuntu    | A | A | A | A  | M |
 #### 🔴 Identificación de Amenazas
 
 #### 🔴 Evaluación de Riesgos
