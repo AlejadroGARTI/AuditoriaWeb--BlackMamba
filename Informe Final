@@ -1,1 +1,103 @@
+# Informe de Auditoría de Seguridad
 
+---
+
+## Cliente
+
+- **Cliente:** Black Mamba  
+- **Fecha de emisión:** 21/05/2026  
+- **Auditor Jefe:** Alejandro Gutiérrez Alañón 
+- **Clasificación del Documento:** CONFIDENCIAL  
+
+---
+
+## Resumen Ejecutivo
+
+Este informe presenta los resultados de la auditoría de seguridad realizada sobre la infraestructura de Black Mamba. El objetivo principal ha sido identificar vulnerabilidades, evaluar riesgos y determinar el nivel de exposición de los sistemas críticos.
+
+En términos generales, la postura de seguridad de la organización se considera: **[Crítica / Deficiente / Aceptable]**.
+
+Durante el análisis se han identificado y evaluado **[X] hallazgos de seguridad**, de los cuales **[X] han sido clasificados como críticos o de alta severidad**.
+
+Desde el punto de vista del impacto en el negocio, la persistencia de los riesgos críticos podría derivar en consecuencias significativas a nivel financiero, legal y reputacional. Esto incluye posibles pérdidas económicas por interrupción del servicio, sanciones regulatorias por incumplimiento normativo y daño a la confianza de clientes y socios estratégicos.
+
+---
+
+## Alcance y Metodología
+
+### Sistemas evaluados
+- Servidor: [Especificar servidor auditado]
+- Base de datos: [Especificar base de datos]
+- Aplicación: [Especificar aplicación auditada]
+
+### Marcos normativos aplicados
+- Metodología MAGERIT v3
+- Controles del Esquema Nacional de Seguridad (ENS)
+
+### Herramientas utilizadas
+- [Ejemplo: Nmap]
+- [Ejemplo: Nessus / OpenVAS]
+- [Ejemplo: Burp Suite]
+- [Ejemplo: Wireshark]
+- [Ejemplo: herramientas de análisis forense y enumeración]
+
+Estas herramientas han sido utilizadas para la recolección de evidencias técnicas, análisis de vulnerabilidades y validación de hallazgos.
+
+---
+
+## Top 3 Hallazgos Críticos
+
+### Hallazgo 1
+
+- **Nombre del Hallazgo:** 
+- **Nivel de Riesgo:**  
+- **Condición (Lo que es):** 
+- **Criterio (Lo que debería ser):**   
+- **Causa:** 
+- **Consecuencia e Impacto:** 
+- **Plan de Acción (Recomendación):** 
+
+---
+
+### Hallazgo 2
+
+- **Nombre del Hallazgo:** 
+- **Nivel de Riesgo:**  
+- **Condición (Lo que es):** 
+- **Criterio (Lo que debería ser):**   
+- **Causa:** 
+- **Consecuencia e Impacto:** 
+- **Plan de Acción (Recomendación):** 
+
+---
+
+### Hallazgo 3
+
+- **Nombre del Hallazgo:** 
+- **Nivel de Riesgo:**  
+- **Condición (Lo que es):** 
+- **Criterio (Lo que debería ser):**   
+- **Causa:** 
+- **Consecuencia e Impacto:** 
+- **Plan de Acción (Recomendación):** 
+
+---
+
+## Anexos Técnicos
+
+### Tablas de Auditoría
+
+#### Fase 1 - Identificación y Valoración de Activos
+
+#### Fase 2 - Identificación de Amenazas
+
+#### Fase 3 - Evaluación de Riesgos
+
+#### Fase 4 - Selección de Salvaguardas
+
+### Evidencias Visuales
+
+
+### Evidencias Visuales
+
+---
