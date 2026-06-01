@@ -130,15 +130,12 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 | AM-03 | Eliminación de temas inactivos          | SW-1          | [ ? ]         | [ Ver 3.1 ]  |
 | AM-04 | Módulos recomendados faltantes          | SW-1          | [ ? ]         | [ Ver 3.1 ]  |
 | AM-05 | Servidor SQL obsoleto                   | HW-1          | [ ? ]         | [ Ver 3.1 ]  |
-| AM-06 | Falta de caché de página                | HW-1          | [ ? ]         | El servidor no cachea contenido, por lo que ante picos de tráfico deberá procesar cada petición desde cero, lo que puede agotar recursos y provocar caída del servicio. |
+| AM-06 | Falta de caché de página                | HW-1          | A.11        | El servidor no cachea contenido, por lo que ante picos de tráfico deberá procesar cada petición desde cero, lo que puede agotar recursos y provocar caída del servicio. |
 
 En donde los códigos de las amenazas están dados por: 
 - **[S.21] Vulnerabilidades de los programas:** Uso de software obsoleto, sin actualizar o que ya no recibe parches de seguridad de sus creadores.
-
 - **[S.22] Errores de configuración / Faltas funcionales:** Ausencia de componentes, librerías o módulos necesarios para que el sistema funcione correctamente y de forma segura.
-
 - **[S.24] Deficiencias de mantenimiento:** Dejar instalados componentes, plugins o temas que no se usan. Esto aumenta la "superficie de ataque".
-
 - **[A.11] Degradación del servicio:** Fallos o configuraciones pobres que hacen que el sistema vaya muy lento o pueda colapsar si recibe muchas visitas de golpe.
 #### 🔴 Evaluación de Riesgos
 
