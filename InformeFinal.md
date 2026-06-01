@@ -87,7 +87,7 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 
 ### Tablas de Auditoría
 
-#### Identificación y Valoración de Activos
+#### 🔴 Identificación y Valoración de Activos
 ##### Valor propio
 ###### MAGERIT
 | Ref.   | Activo              | C | I | A | Au | T |
@@ -122,15 +122,14 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 | SW-2  | Middleware        | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
 | COM-1 | Comunicaciones    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
 | HW-1  | Servidor Ubuntu   | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
-#### Identificación de Amenazas
+#### 🔴 Identificación de Amenazas
 
-#### Evaluación de Riesgos
+#### 🔴 Evaluación de Riesgos
 
-#### Selección de Salvaguardas
-
-### Evidencias Visuales
-
+#### 🔴 Selección de Salvaguardas
 
 ### Evidencias Visuales
+
+
 
 ---
