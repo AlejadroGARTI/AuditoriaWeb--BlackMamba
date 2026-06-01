@@ -123,7 +123,14 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 | COM-1 | Comunicaciones     | A | A | A | A  | M |
 | HW-1  | Servidor Ubuntu    | A | A | A | A  | M |
 #### 🔴 Identificación de Amenazas
-
+| Ref.  | Hallazgo                                | Activo Afectado | Código Amenaza | Justificación |
+|-------|-----------------------------------------|----------------|---------------|--------------|
+| AM-01 | Versión obsoleta de PHP (7.0.33)        | [ ? ]          | [ ? ]         | [ Ver 3.1 ]  |
+| AM-02 | Actualización de WordPress (7.0)        | [ ? ]          | [ ? ]         | [ Ver 3.1 ]  |
+| AM-03 | Eliminación de temas inactivos          | [ ? ]          | [ ? ]         | [ Ver 3.1 ]  |
+| AM-04 | Módulos recomendados faltantes          | [ ? ]          | [ ? ]         | [ Ver 3.1 ]  |
+| AM-05 | Servidor SQL obsoleto                   | [ ? ]          | [ ? ]         | [ Ver 3.1 ]  |
+| AM-06 | Falta de caché de página                | [ ? ]          | [ ? ]         | El servidor no cachea contenido, por lo que ante picos de tráfico deberá procesar cada petición desde cero, lo que puede agotar recursos y provocar caída del servicio. |
 #### 🔴 Evaluación de Riesgos
 
 #### 🔴 Selección de Salvaguardas
