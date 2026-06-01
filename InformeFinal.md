@@ -90,12 +90,38 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 #### Identificación y Valoración de Activos
 ##### Valor propio
 ###### MAGERIT
-
+| Ref.   | Activo              | C | I | A | Au | T |
+|--------|---------------------|---|---|---|----|---|
+| INF-1  | Datos de negocio    | ? | ? | ? | 6  | 6 |
+| SW-1   | Aplicación Web      | 3 | ? | ? | 5  | 4 |
+| SW-2   | Middleware          | 4 | 7 | 7 | 4  | 4 |
+| COM-1  | Comunicaciones      | ? | ? | 6 | 8  | 5 |
+| HW-1   | Servidor Ubuntu     | 4 | 7 | 7 | 4  | 5 |
 ###### ENS
+| Ref.  | Activo             | C | I | A | Au | T |
+|-------|--------------------|---|---|---|----|---|
+| INF-1 | Datos de negocio   | ? | ? | ? | ?  | ? |
+| SW-1  | Aplicación Web     | ? | ? | ? | ?  | ? |
+| SW-2  | Middleware         | ? | ? | ? | ?  | ? |
+| COM-1 | Comunicaciones     | ? | ? | ? | ?  | ? |
+| HW-1  | Servidor Ubuntu    | ? | ? | ? | ?  | ? |
 ##### Valor acumulado
 ###### MAGERIT
-
+| Ref.  | Activo            | C     | I     | A     | Au    | T     |
+|-------|-------------------|-------|-------|-------|-------|-------|
+| INF-1 | Datos de negocio  | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| SW-1  | Aplicación Web    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| SW-2  | Middleware        | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| COM-1 | Comunicaciones    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| HW-1  | Servidor Ubuntu   | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
 ###### ENS
+| Ref.  | Activo            | C     | I     | A     | Au    | T     |
+|-------|-------------------|-------|-------|-------|-------|-------|
+| INF-1 | Datos de negocio  | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| SW-1  | Aplicación Web    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| SW-2  | Middleware        | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| COM-1 | Comunicaciones    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| HW-1  | Servidor Ubuntu   | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
 #### Identificación de Amenazas
 
 #### Evaluación de Riesgos
