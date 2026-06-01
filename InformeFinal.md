@@ -92,7 +92,7 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 ###### MAGERIT
 | Ref.   | Activo              | C | I | A | Au | T |
 |--------|---------------------|---|---|---|----|---|
-| INF-1  | Datos de negocio    | ? | ? | ? | 6  | 6 |
+| INF-1  | Datos de negocio    | 10 | ? | ? | 6  | 6 |
 | SW-1   | Aplicación Web      | 3 | ? | ? | 5  | 4 |
 | SW-2   | Middleware          | 4 | 7 | 7 | 4  | 4 |
 | COM-1  | Comunicaciones      | ? | ? | 6 | 8  | 5 |
