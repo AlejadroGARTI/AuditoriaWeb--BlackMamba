@@ -187,7 +187,14 @@ En donde los códigos de las amenazas están dados por:
 | AM-04 | Faltan módulos recomendados     | Instalar plugins o módulos de seguridad recomendados                      | 100%         | 0          | Bajo                      |
 En donde 
 ### Evidencias Visuales
+#### Captura 1
+![Login](C:\Users\aleja\Pictures\Screenshots)
 
+#### Captura 2
+![Escaneo Nmap](images/nmap.png)
+
+#### Captura 3
+![Panel de administración](images/panel.png)
 
 
 ---
