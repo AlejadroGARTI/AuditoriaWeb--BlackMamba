@@ -177,7 +177,7 @@ En donde los códigos de las amenazas están dados por:
 | AM-03 | Temas inactivos instalados      | [op.exp.2] Configuración de seguridad      | Eliminar temas no utilizados y mantener solo los necesarios | Probabilidad |
 | AM-04 | Módulos recomendados faltantes   | [op.pl.1] Arquitectura de seguridad      | Instalar plugins o módulos de seguridad recomendados | Probabilidad |
 ##### 🟢 Plan de Tratamiento del Riesgo Residual
-| Ref. | Hallazgo                          | Acción Técnica Recomendada | Eficacia (e) | Riesgo Residual  rr=ixfx(1-e)| Riesgo Residual Cualitativo |
+| Ref. | Hallazgo                          | Acción Técnica Recomendada | Eficacia (e) | Riesgo Residual  | Riesgo Residual Cualitativo |
 |------|----------------------------------|----------------------------|--------------|-----------------|-----------------------------|
 | AM-01 | Versión obsoleta de PHP         | Actualizar a versión soportada y aplicar parches de seguridad                      | 80%          | 16.2           | Bajo                       |
 | AM-05 | Servidor SQL obsoleto           | Actualizar motor de base de datos a versión soportada y parcheada                     | 80%          | 16.0           | Bajo                       |
@@ -185,6 +185,7 @@ En donde los códigos de las amenazas están dados por:
 | AM-06 | No se ha detectado caché        | Implementar sistema de caché                      | 50%          | 21.56           | Medio                       |
 | AM-03 | Temas inactivos instalados      | Eliminar temas no utilizados y mantener solo los necesarios                      | 90%          | 3.15           | Bajo                      |
 | AM-04 | Faltan módulos recomendados     | Instalar plugins o módulos de seguridad recomendados                      | 100%         | 0          | Bajo                      |
+En donde 
 ### Evidencias Visuales
 
 
