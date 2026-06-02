@@ -109,11 +109,11 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 ###### MAGERIT
 | Ref.   | Activo              | C | I | A | Au | T |
 |--------|---------------------|---|---|---|----|---|
-| INF-1  | Datos de negocio    | 4 | 7 | 7 | 4  | 5 |
-| SW-1   | Aplicación Web      | 4 | 7 | 7 | 4  | 5 |
-| SW-2   | Middleware          | 4 | 7 | 7 | 4  | 5 |
-| COM-1  | Comunicaciones      | 4 | 7 | 7 | 4  | 5 |
-| HW-1   | Servidor Ubuntu     | 4 | 7 | 7 | 4  | 5 |
+| INF-1  | Datos de negocio    | 10 | 9 | 8 | 6  | 6 |
+| SW-1   | Aplicación Web      | 10 | 9 | 8 | 6  | 6 |
+| SW-2   | Middleware          | 10 | 9 | 8 | 6  | 6 |
+| COM-1  | Comunicaciones      | 10 | 9 | 8 | 8  | 6 |
+| HW-1   | Servidor Ubuntu     | 10 | 9 | 8 | 8  | 6 |
 ###### ENS
 | Ref.  | Activo             | C | I | A | Au | T |
 |-------|--------------------|---|---|---|----|---|
