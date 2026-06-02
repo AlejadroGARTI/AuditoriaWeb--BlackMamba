@@ -138,7 +138,17 @@ En donde los códigos de las amenazas están dados por:
 - **[S.24] Deficiencias de mantenimiento:** Dejar instalados componentes, plugins o temas que no se usan. Esto aumenta la "superficie de ataque".
 - **[A.11] Degradación del servicio:** Fallos o configuraciones pobres que hacen que el sistema vaya muy lento o pueda colapsar si recibe muchas visitas de golpe.
 #### 🔴 Evaluación de Riesgos
-
+##### 🟢 Cálculo de Probabilidad
+| Ref.  | Atracción | Facilidad | Accesibilidad | Probabilidad | P. Cualitativa |
+|--------|-----------|------------|---------------|--------------|----------------|
+| AM-01 | 8 | 9 | 10 | 9,0 | Crítica |
+| AM-02 | 9 | 8 | 10 | 9,0 | Crítica |
+| AM-03 | 6 | 7 | 8  | 7,0 | Alta |
+| AM-04 | 2 | 2 | 5  | 3,0 | Baja |
+| AM-05 | 9 | 8 | 7  | 8,0 | Crítica |
+| AM-06 | 5 | 8 | 10 | 7,7 | Alta |
+##### 🟢 Cálculo de Impacto
+##### 🟢 Cálculo de Riesgo
 #### 🔴 Selección de Salvaguardas
 
 ### Evidencias Visuales
