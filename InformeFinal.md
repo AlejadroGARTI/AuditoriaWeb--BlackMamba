@@ -109,11 +109,11 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 ###### MAGERIT
 | Ref.   | Activo              | C | I | A | Au | T |
 |--------|---------------------|---|---|---|----|---|
-| INF-1  | Datos de negocio    | 10 | 9 | 8 | 6  | 6 |
-| SW-1   | Aplicación Web      | 10 | 9 | 8 | 6  | 6 |
-| SW-2   | Middleware          | 10 | 9 | 8 | 6  | 6 |
-| COM-1  | Comunicaciones      | 10 | 9 | 8 | 8  | 6 |
-| HW-1   | Servidor Ubuntu     | 10 | 9 | 8 | 8  | 6 |
+| INF-1  | Datos de negocio    | 4 | 7 | 7 | 4  | 5 |
+| SW-1   | Aplicación Web      | 4 | 7 | 7 | 4  | 5 |
+| SW-2   | Middleware          | 4 | 7 | 7 | 4  | 5 |
+| COM-1  | Comunicaciones      | 4 | 7 | 7 | 4  | 5 |
+| HW-1   | Servidor Ubuntu     | 4 | 7 | 7 | 4  | 5 |
 ###### ENS
 | Ref.  | Activo             | C | I | A | Au | T |
 |-------|--------------------|---|---|---|----|---|
@@ -125,12 +125,12 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 #### 🔴 Identificación de Amenazas
 | Ref.  | Hallazgo                                | Activo Afectado | Código Amenaza | Justificación |
 |-------|-----------------------------------------|----------------|---------------|--------------|
-| AM-01 | Versión obsoleta de PHP (7.0.33-0ubuntu0.16.04.16)        | SW-2          | S.21         | Al ser una versión obsoleta del 2018 que ya no recibe parches de seguridad , se expone tanto al servidor, como a la página web a recibir ataques críticos, en donde desctacan vulnerabilidades como la inyección de Comando (CVE-2018-19518) en donde un fallo crítico en la función imap_open, permite a un atacante remoto ejecutar comandos arbitrarios en el servidor enviando un nombre de servidor IMAP manipulado. |
-| AM-02 | Actualización de WordPress (7.0)        | SW-1          | S.21         | La versión actual de WordPress (6.5.8) posee múltiples vulnerabilidades, entre las que destacan una vulnerabilidad de tipo SSRF (Server-Side Request Forgery) que permite que un atacante obligue al servidor a hacer peticiones internas o externas o también una vulnerabilidad de tipo XSS (Cross-Site Scripting) que permite el secuestro de cuentas y el robo de cookies o sesiones.|
-| AM-03 | Eliminación de temas inactivos          | SW-1          | S.24         | Los temas inactivos pueden tener vulnerabilidades de seguridad, y al estar fuera de uso, es más probable que no se actualicen y sus versiones presenten graves problemas de seguridad. |
-| AM-04 | Módulos recomendados faltantes          | SW-1          | S.22         | La ausencia de los módulos recomendados, en si no representa un fallo crítico de seguridad, sin embargo, la configuración recomendada y la instalación de estos módulos permite reforzar la seguridad y el funcionamiento del sitio.  |
-| AM-05 | Servidor SQL obsoleto                   | SW-2          | S.21         | Los datos del negocio se podrìan ver gravemente afectados ya que al tener una base de datos obsoleta, se podrían robar todos los datos que contiene.  |
-| AM-06 | Falta de caché de página                | SW-2          | A.11        | El servidor no cachea contenido, por lo que ante picos de tráfico deberá procesar cada petición desde cero, lo que puede agotar recursos y provocar caída del servicio. |
+| AM-01 | Versión obsoleta de PHP (7.0.33-0ubuntu0.16.04.16)        | SW-2 (Middleware)          | S.21         | Al ser una versión obsoleta del 2018 que ya no recibe parches de seguridad , se expone tanto al servidor, como a la página web a recibir ataques críticos, en donde desctacan vulnerabilidades como la inyección de Comando (CVE-2018-19518) en donde un fallo crítico en la función imap_open, permite a un atacante remoto ejecutar comandos arbitrarios en el servidor enviando un nombre de servidor IMAP manipulado. |
+| AM-02 | Actualización de WordPress (7.0)        | SW-1 (Aplicación Web)          | S.21         | La versión actual de WordPress (6.5.8) posee múltiples vulnerabilidades, entre las que destacan una vulnerabilidad de tipo SSRF (Server-Side Request Forgery) que permite que un atacante obligue al servidor a hacer peticiones internas o externas o también una vulnerabilidad de tipo XSS (Cross-Site Scripting) que permite el secuestro de cuentas y el robo de cookies o sesiones.|
+| AM-03 | Eliminación de temas inactivos          | SW-1 (Aplicación Web)         | S.24         | Los temas inactivos pueden tener vulnerabilidades de seguridad, y al estar fuera de uso, es más probable que no se actualicen y sus versiones presenten graves problemas de seguridad. |
+| AM-04 | Módulos recomendados faltantes          | SW-1 (Aplicación Web)         | S.22         | La ausencia de los módulos recomendados, en si no representa un fallo crítico de seguridad, sin embargo, la configuración recomendada y la instalación de estos módulos permite reforzar la seguridad y el funcionamiento del sitio.  |
+| AM-05 | Servidor SQL obsoleto                   | INF-1 (Datos de negocio)          | S.21         | Los datos del negocio se podrìan ver gravemente afectados ya que al tener una base de datos obsoleta, se podrían robar todos los datos que contiene.  |
+| AM-06 | Falta de caché de página                | HW-1 (Servidor Ubuntu)         | A.11        | El servidor no cachea contenido, por lo que ante picos de tráfico deberá procesar cada petición desde cero, lo que puede agotar recursos y provocar caída del servicio. |
 
 En donde los códigos de las amenazas están dados por: 
 - **[S.21] Vulnerabilidades de los programas:** Uso de software obsoleto, sin actualizar o que ya no recibe parches de seguridad de sus creadores.
