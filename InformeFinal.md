@@ -157,6 +157,14 @@ En donde los códigos de las amenazas están dados por:
 | AM-05 | INF-1 (Datos de negocio) | C | 10 | 100% | [ ? ] |
 | AM-06 | HW-1 (Servidor Ubuntu) | A | 8 | 70%  | [ ? ] | 
 ##### 🟢 Cálculo de Riesgo
+| Prioridad   | Ref. | Activo Afectado | Dimensión Principal Afectada | Degradación | Impacto | Probabilidad | Riesgo Potencial | Riesgo Cualitativo |
+|-------------|------|----------------|------------------------------|-------------|----------|--------------|------------------|--------------------|
+| 1º Mayor    | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| 2º          | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| 3º          | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| 4º          | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| 5º          | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
+| 6º          | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] | [ ? ] |
 #### 🔴 Selección de Salvaguardas
 
 ### Evidencias Visuales
