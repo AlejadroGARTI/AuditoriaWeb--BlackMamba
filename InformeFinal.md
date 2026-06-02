@@ -150,12 +150,12 @@ En donde los códigos de las amenazas están dados por:
 ##### 🟢 Cálculo de Impacto
 | Ref.  | Activo Afectado | Dimensión Principal Afectada | Valor Acumulado | Degradación | Impacto |
 |--------|----------------|------------------------------|-----------------|-------------|---------|
-| AM-01 | SW-2 (Middleware) | I | 9 | 100% | [ ? ] |
-| AM-02 | SW-1 (Aplicación Web) | C | 10 | 80%  | [ ? ] |
-| AM-03 | SW-1 (Aplicación Web) | I | 9 | 50%  | [ ? ] |
-| AM-04 | SW-1 (Aplicación Web) | I | 9 | 20%  | [ ? ] |
-| AM-05 | INF-1 (Datos de negocio) | C | 10 | 100% | [ ? ] |
-| AM-06 | HW-1 (Servidor Ubuntu) | A | 8 | 70%  | [ ? ] | 
+| AM-01 | SW-2 (Middleware) | I | 7 | 100% | [ ? ] |
+| AM-02 | SW-1 (Aplicación Web) | C | 4 | 80%  | [ ? ] |
+| AM-03 | SW-1 (Aplicación Web) | I | 7 | 50%  | [ ? ] |
+| AM-04 | SW-1 (Aplicación Web) | I | 7 | 20%  | [ ? ] |
+| AM-05 | INF-1 (Datos de negocio) | C | 4 | 100% | [ ? ] |
+| AM-06 | HW-1 (Servidor Ubuntu) | A | 7 | 70%  | [ ? ] | 
 ##### 🟢 Cálculo de Riesgo
 | Prioridad   | Ref. | Activo Afectado | Dimensión Principal Afectada | Degradación | Impacto | Probabilidad | Riesgo Potencial | Riesgo Cualitativo |
 |-------------|------|----------------|------------------------------|-------------|----------|--------------|------------------|--------------------|
