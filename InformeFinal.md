@@ -179,12 +179,12 @@ En donde los códigos de las amenazas están dados por:
 ##### 🟢 Plan de Tratamiento del Riesgo Residual
 | Ref. | Hallazgo                          | Acción Técnica Recomendada | Eficacia (e) | Riesgo Residual  rr=ixfx(1-e)| Riesgo Residual Cualitativo |
 |------|----------------------------------|----------------------------|--------------|-----------------|-----------------------------|
-| AM-01 | Versión obsoleta de PHP         | Actualizar a versión soportada y aplicar parches de seguridad                      | 80%          | [ ? ]           | [ ? ]                       |
-| AM-05 | Servidor SQL obsoleto           | Actualizar motor de base de datos a versión soportada y parcheada                     | 80%          | [ ? ]           | [ ? ]                       |
-| AM-02 | Actualización de WP disponible   | Actualizar WordPress a la última versión estable                      | 70%          | [ ? ]           | [ ? ]                       |
-| AM-06 | No se ha detectado caché        | Implementar sistema de caché                      | 50%          | [ ? ]           | [ ? ]                       |
-| AM-03 | Temas inactivos instalados      | Eliminar temas no utilizados y mantener solo los necesarios                      | 90%          | [ ? ]           | [ ? ]                       |
-| AM-04 | Faltan módulos recomendados     | Instalar plugins o módulos de seguridad recomendados                      | 100%         | [ ? ]           | [ ? ]                       |
+| AM-01 | Versión obsoleta de PHP         | Actualizar a versión soportada y aplicar parches de seguridad                      | 80%          | 16.2           | [ ? ]                       |
+| AM-05 | Servidor SQL obsoleto           | Actualizar motor de base de datos a versión soportada y parcheada                     | 80%          | 16.0           | [ ? ]                       |
+| AM-02 | Actualización de WP disponible   | Actualizar WordPress a la última versión estable                      | 70%          | 21.6           | [ ? ]                       |
+| AM-06 | No se ha detectado caché        | Implementar sistema de caché                      | 50%          | 21.56           | [ ? ]                       |
+| AM-03 | Temas inactivos instalados      | Eliminar temas no utilizados y mantener solo los necesarios                      | 90%          | 3.15           | [ ? ]                       |
+| AM-04 | Faltan módulos recomendados     | Instalar plugins o módulos de seguridad recomendados                      | 100%         | 0          | [ ? ]                       |
 ### Evidencias Visuales
 
 
