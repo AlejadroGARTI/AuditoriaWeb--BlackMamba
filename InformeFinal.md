@@ -167,14 +167,24 @@ En donde los códigos de las amenazas están dados por:
 | 5º          | AM-03 | SW-1 (Aplicación Web)        | I                            | 50%         | 4.5      | 7,0          | 31.5             | Medio              |
 | 6º          | AM-04 | SW-1 (Aplicación Web)        | I                            | 20%         | 1.8      | 3,0          | 5.4              | Bajo               |
 #### 🔴 Selección de Salvaguardas
+##### 🟢 Plan de Tratamiento del Riesgo
 | Ref. | Hallazgo                          | Código ENS | Acción Técnica Recomendada | ¿Qué reduce? |
 |------|----------------------------------|------------|----------------------------|--------------|
-| AM-01 | Versión obsoleta de PHP         | [op.exp.8] Gestión de vulnerabilidades y actualizaciones     | Actualizar a versión soportada y aplicar parches de seguridad |  |
-| AM-05 | Servidor SQL obsoleto           | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar motor de base de datos a versión soportada y parcheada |  |
-| AM-02 | Actualización de WP disponible  | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar WordPress a la última versión estable |  |
-| AM-06 | No se ha detectado caché        | [op.pl.1] Arquitectura de seguridad      | Implementar sistema de caché (OPcache / Redis / Varnish) | A.11 |
-| AM-03 | Temas inactivos instalados      | [op.exp.2] Configuración de seguridad      | Eliminar temas no utilizados y mantener solo los necesarios |  |
-| AM-04 | Módulos recomendados faltantes   | [op.pl.1] Arquitectura de seguridad      | Instalar plugins/módulos de seguridad recomendados |  |
+| AM-01 | Versión obsoleta de PHP         | [op.exp.8] Gestión de vulnerabilidades y actualizaciones     | Actualizar a versión soportada y aplicar parches de seguridad | Probabilidad |
+| AM-05 | Servidor SQL obsoleto           | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar motor de base de datos a versión soportada y parcheada | Probabilidad |
+| AM-02 | Actualización de WP disponible  | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar WordPress a la última versión estable | Probabilidad |
+| AM-06 | No se ha detectado caché        | [op.pl.1] Arquitectura de seguridad      | Implementar sistema de caché (OPcache / Redis / Varnish) | Impacto |
+| AM-03 | Temas inactivos instalados      | [op.exp.2] Configuración de seguridad      | Eliminar temas no utilizados y mantener solo los necesarios | Probabilidad |
+| AM-04 | Módulos recomendados faltantes   | [op.pl.1] Arquitectura de seguridad      | Instalar plugins/módulos de seguridad recomendados | Probabilidad |
+##### 🟢 Plan de Tratamiento del Riesgo Residual
+| Ref. | Hallazgo                          | Acción Técnica Recomendada | Eficacia (e) | Riesgo Residual | Riesgo Residual Cualitativo |
+|------|----------------------------------|----------------------------|--------------|-----------------|-----------------------------|
+| [ ? ] | Versión obsoleta de PHP         | [ ? ]                      | 80%          | [ ? ]           | [ ? ]                       |
+| [ ? ] | Servidor SQL obsoleto           | [ ? ]                      | 80%          | [ ? ]           | [ ? ]                       |
+| [ ? ] | Actualización de WP disponible   | [ ? ]                      | 70%          | [ ? ]           | [ ? ]                       |
+| [ ? ] | No se ha detectado caché        | [ ? ]                      | 50%          | [ ? ]           | [ ? ]                       |
+| [ ? ] | Temas inactivos instalados      | [ ? ]                      | 90%          | [ ? ]           | [ ? ]                       |
+| [ ? ] | Faltan módulos recomendados     | [ ? ]                      | 100%         | [ ? ]           | [ ? ]                       |
 ### Evidencias Visuales
 
 
