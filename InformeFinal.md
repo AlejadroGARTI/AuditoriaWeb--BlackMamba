@@ -160,12 +160,12 @@ En donde los códigos de las amenazas están dados por:
 ##### 🟢 Cálculo de Riesgo
 | Prioridad   | Ref.  | Activo Afectado              | Dimensión Principal Afectada | Degradación | Impacto | Probabilidad | Riesgo Potencial | Riesgo Cualitativo |
 |-------------|-------|------------------------------|------------------------------|-------------|----------|--------------|------------------|--------------------|
-| 1º Mayor    | AM-05 | INF-1 (Datos de negocio)     | C                            | 100%        | 10.0     | 8,0          | [ ? ]            | [ ? ]              |
-| 2º          | AM-01 | SW-2 (Middleware)            | I                            | 100%        | 9.0      | 9,0          | [ ? ]            | [ ? ]              |
-| 3º          | AM-02 | SW-1 (Aplicación Web)        | C                            | 80%         | 8.0      | 9,0          | [ ? ]            | [ ? ]              |
-| 4º          | AM-06 | HW-1 (Servidor Ubuntu)       | A                            | 70%         | 5.6      | 7,7          | [ ? ]            | [ ? ]              |
-| 5º          | AM-03 | SW-1 (Aplicación Web)        | I                            | 50%         | 4.5      | 7,0          | [ ? ]            | [ ? ]              |
-| 6º          | AM-04 | SW-1 (Aplicación Web)        | I                            | 20%         | 1.8      | 3,0          | [ ? ]            | [ ? ]              |
+| 1º Mayor    | AM-01 | SW-2 (Middleware)            | I                            | 100%        | 9.0      | 9,0          | 81.0             | Muy Alto / Crítico |
+| 2º          | AM-05 | INF-1 (Datos de negocio)     | C                            | 100%        | 10.0     | 8,0          | 80.0             | Alto               |
+| 3º          | AM-02 | SW-1 (Aplicación Web)        | C                            | 80%         | 8.0      | 9,0          | 72.0             | Alto               |
+| 4º          | AM-06 | HW-1 (Servidor Ubuntu)       | A                            | 70%         | 5.6      | 7,7          | 43.12            | Medio              |
+| 5º          | AM-03 | SW-1 (Aplicación Web)        | I                            | 50%         | 4.5      | 7,0          | 31.5             | Medio              |
+| 6º          | AM-04 | SW-1 (Aplicación Web)        | I                            | 20%         | 1.8      | 3,0          | 5.4              | Bajo               |
 #### 🔴 Selección de Salvaguardas
 
 ### Evidencias Visuales
