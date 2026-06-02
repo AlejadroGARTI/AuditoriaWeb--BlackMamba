@@ -169,12 +169,12 @@ En donde los códigos de las amenazas están dados por:
 #### 🔴 Selección de Salvaguardas
 | Ref. | Hallazgo                          | Código ENS | Acción Técnica Recomendada | ¿Qué reduce? |
 |------|----------------------------------|------------|----------------------------|--------------|
-| AM-01 | Versión obsoleta de PHP         | [op.exp.8] Gestión de vulnerabilidades y actualizaciones     | Actualizar a versión soportada y aplicar parches de seguridad | S.21 / I |
-| AM-05 | Servidor SQL obsoleto           | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar motor de base de datos a versión soportada y parcheada | S.21 / C / I |
-| AM-02 | Actualización de WP disponible  | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar WordPress a la última versión estable | S.21 / C / I |
+| AM-01 | Versión obsoleta de PHP         | [op.exp.8] Gestión de vulnerabilidades y actualizaciones     | Actualizar a versión soportada y aplicar parches de seguridad |  |
+| AM-05 | Servidor SQL obsoleto           | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar motor de base de datos a versión soportada y parcheada |  |
+| AM-02 | Actualización de WP disponible  | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar WordPress a la última versión estable |  |
 | AM-06 | No se ha detectado caché        | [op.pl.1] Arquitectura de seguridad      | Implementar sistema de caché (OPcache / Redis / Varnish) | A.11 |
-| AM-03 | Temas inactivos instalados      | [ ? ]      | Eliminar temas no utilizados y mantener solo los necesarios | S.24 / I |
-| AM-04 | Módulos recomendados faltantes   | [ ? ]      | Instalar plugins/módulos de seguridad recomendados | S.22 / I |
+| AM-03 | Temas inactivos instalados      | [op.exp.2] Configuración de seguridad      | Eliminar temas no utilizados y mantener solo los necesarios |  |
+| AM-04 | Módulos recomendados faltantes   | [op.pl.1] Arquitectura de seguridad      | Instalar plugins/módulos de seguridad recomendados |  |
 ### Evidencias Visuales
 
 
