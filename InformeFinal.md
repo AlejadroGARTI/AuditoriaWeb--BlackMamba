@@ -167,7 +167,14 @@ En donde los códigos de las amenazas están dados por:
 | 5º          | AM-03 | SW-1 (Aplicación Web)        | I                            | 50%         | 4.5      | 7,0          | 31.5             | Medio              |
 | 6º          | AM-04 | SW-1 (Aplicación Web)        | I                            | 20%         | 1.8      | 3,0          | 5.4              | Bajo               |
 #### 🔴 Selección de Salvaguardas
-
+| Ref. | Hallazgo                          | Código ENS | Acción Técnica Recomendada | ¿Qué reduce? |
+|------|----------------------------------|------------|----------------------------|--------------|
+| AM-01 | Versión obsoleta de PHP         | [op.exp.8] Gestión de vulnerabilidades y actualizaciones     | Actualizar a versión soportada y aplicar parches de seguridad | S.21 / I |
+| AM-05 | Servidor SQL obsoleto           | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar motor de base de datos a versión soportada y parcheada | S.21 / C / I |
+| AM-02 | Actualización de WP disponible  | [op.exp.8] Gestión de vulnerabilidades y actualizaciones      | Actualizar WordPress a la última versión estable | S.21 / C / I |
+| AM-06 | No se ha detectado caché        | [op.pl.1] Arquitectura de seguridad      | Implementar sistema de caché (OPcache / Redis / Varnish) | A.11 |
+| AM-03 | Temas inactivos instalados      | [ ? ]      | Eliminar temas no utilizados y mantener solo los necesarios | S.24 / I |
+| AM-04 | Módulos recomendados faltantes   | [ ? ]      | Instalar plugins/módulos de seguridad recomendados | S.22 / I |
 ### Evidencias Visuales
 
 
