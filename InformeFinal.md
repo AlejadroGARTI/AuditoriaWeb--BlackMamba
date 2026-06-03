@@ -188,13 +188,10 @@ En donde los códigos de las amenazas están dados por:
 En donde 
 ### Evidencias Visuales
 #### Captura 1
-![Login](Evidencias_Visuales/Evidencia%201.png)
+![](Evidencias_Visuales/Evidencia%201.png)
 
 #### Captura 2
-![Escaneo Nmap](images/nmap.png)
-
-#### Captura 3
-![Panel de administración](images/panel.png)
+[](Evidencias_Visuales/Evidencia%202.png)
 
 
 ---
