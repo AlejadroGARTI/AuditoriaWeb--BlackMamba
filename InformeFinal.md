@@ -191,7 +191,7 @@ En donde
 ![](Evidencias_Visuales/Evidencia%201.png)
 
 #### Captura 2
-[](Evidencias_Visuales/Evidencia%202.png)
+![](Evidencias_Visuales/Evidencia%202.png)
 
 
 ---
