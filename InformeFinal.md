@@ -185,7 +185,6 @@ En donde los códigos de las amenazas están dados por:
 | AM-06 | No se ha detectado caché        | Implementar sistema de caché                      | 50%          | 21.56           | Medio                       |
 | AM-03 | Temas inactivos instalados      | Eliminar temas no utilizados y mantener solo los necesarios                      | 90%          | 3.15           | Bajo                      |
 | AM-04 | Faltan módulos recomendados     | Instalar plugins o módulos de seguridad recomendados                      | 100%         | 0          | Bajo                      |
-En donde 
 ### Evidencias Visuales
 #### Captura 1
 ![](Evidencias_Visuales/Evidencia%201.png)
