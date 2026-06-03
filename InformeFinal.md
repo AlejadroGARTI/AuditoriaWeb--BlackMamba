@@ -13,7 +13,11 @@
 
 ## Resumen Ejecutivo
 
+Tras realizar la auditoría basada en la metodología MAGERIT y el cumplimiento del ENS, se concluye que la postura de seguridad de la infraestructura actual de Black Mamba es Crítica ya que se han identificado y evaluado un total de 6 hallazgos, de los cuales tres presentan un nivel de riesgo crítico, por lo que la organización está expuesta a ciberataques con una probabilidad muy elevada en el corto plazo de que estos problemas afecten los activos de la empresa.
 
+El principal problema reside en el uso de software obsoleto y sin parches de seguridad, lo que convierte los sistemas críticos de la empresa en un blanco fácil para atacantes. Aunque existen problemas de configuración y mantenimiento como los temas inactivos o la falta de caché, la amenaza más inmediata y grave es técnica, ya que los componentes centrales del negocio están desactualizados, facilitando de esta forma la ejecución remota de comandos, robo de datos o caída de servicios.
+
+En cuanto al impacto directo en el negocio, si Black Mamba no soluciona estos riesgos críticos de forma inmediata, las consecuencias podrían significar la perdida completa del negocio ya que a nivel financiero, un ataque exitoso podría paralizar el negocio durante días, con la consiguiente pérdida de ingresos, costes de recuperación forense y posibles multas regulatorias, o incluso, perder los datos para siempre.
 
 ---
 
