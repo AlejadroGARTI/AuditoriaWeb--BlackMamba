@@ -20,9 +20,9 @@
 ## Alcance y Metodología
 
 ### Sistemas evaluados
-- Servidor: [Especificar servidor auditado]
-- Base de datos: [Especificar base de datos]
-- Aplicación: [Especificar aplicación auditada]
+- Servidor:
+- Base de datos: 
+- Aplicación: 
 
 ### Marcos normativos aplicados
 - Metodología MAGERIT v3
@@ -30,10 +30,7 @@
 
 ### Herramientas utilizadas
 - [Ejemplo: Nmap]
-- [Ejemplo: Nessus / OpenVAS]
-- [Ejemplo: Burp Suite]
-- [Ejemplo: Wireshark]
-- [Ejemplo: herramientas de análisis forense y enumeración]
+
 
 Estas herramientas han sido utilizadas para la recolección de evidencias técnicas, análisis de vulnerabilidades y validación de hallazgos.
 
