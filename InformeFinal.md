@@ -13,13 +13,7 @@
 
 ## Resumen Ejecutivo
 
-Este informe presenta los resultados de la auditoría de seguridad realizada sobre la infraestructura de Black Mamba. El objetivo principal ha sido identificar vulnerabilidades, evaluar riesgos y determinar el nivel de exposición de los sistemas críticos.
 
-En términos generales, la postura de seguridad de la organización se considera: **[Crítica / Deficiente / Aceptable]**.
-
-Durante el análisis se han identificado y evaluado **[X] hallazgos de seguridad**, de los cuales **[X] han sido clasificados como críticos o de alta severidad**.
-
-Desde el punto de vista del impacto en el negocio, la persistencia de los riesgos críticos podría derivar en consecuencias significativas a nivel financiero, legal y reputacional. Esto incluye posibles pérdidas económicas por interrupción del servicio, sanciones regulatorias por incumplimiento normativo y daño a la confianza de clientes y socios estratégicos.
 
 ---
 
