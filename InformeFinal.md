@@ -24,16 +24,15 @@ En cuanto al impacto directo en el negocio, si Black Mamba no soluciona estos ri
 ## Alcance y Metodología
 
 ### Sistemas evaluados
-- Servidor:
-- Base de datos: 
-- Aplicación: 
+Se ha auditado el servidor principal con sistema operativo Ubuntu 16.04, el middleware (PHP 7.0.33) que actúa como capa de integración, la aplicación web (WordPress 6.5.8) y la base de datos SQL que almacena los datos de negocio. También se han revisado las comunicaciones internas y externas del entorno.
 
 ### Marcos normativos aplicados
 - Metodología MAGERIT v3
 - Controles del Esquema Nacional de Seguridad (ENS)
 
 ### Herramientas utilizadas
-- [Ejemplo: Nmap]
+- Inspección manual de configuración de WordPress (temas activos/inactivos, plugins recomendados).
+- Análisis de cabeceras HTTP y respuesta del servidor para detectar ausencia de caché
 
 
 Estas herramientas han sido utilizadas para la recolección de evidencias técnicas, análisis de vulnerabilidades y validación de hallazgos.
@@ -44,37 +43,37 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 
 ### Hallazgo 1
 
-- **Nombre del Hallazgo:** 
-- **Nivel de Riesgo:**  
-- **Condición (Lo que es):** 
-- **Criterio (Lo que debería ser):**   
-- **Causa:** 
-- **Consecuencia e Impacto:** 
-- **Plan de Acción (Recomendación):** 
+- **Nombre del Hallazgo:** Versión obsoleta de PHP en el Middleware
+- **Nivel de Riesgo:** Muy Alto / Crítico (Riesgo Potencial 81.0)
+- **Condición (Lo que es):** El servidor ejecuta PHP 7.0.33-0ubuntu0.16.04.16, una versión lanzada en 2018 que ya no recibe parches de seguridad.
+- **Criterio (Lo que debería ser):**  Todo software en producción debe mantenerse en versiones soportadas por el fabricante y con parches de seguridad aplicados periódicamente. 
+- **Causa:** Falta de un plan de actualización y mantenimiento del software base; probablemente se priorizó la estabilidad funcional sobre la seguridad.
+- **Consecuencia e Impacto:**  Un atacante remoto puede explotar vulnerabilidades críticas conocidas (ej. CVE-2018-19518, inyección de comandos en imap_open) para ejecutar comandos arbitrarios, tomar control del servidor, robar o destruir datos de negocio.
+- **Plan de Acción (Recomendación):** Actualizar PHP a una versión soportada (8.x) y aplicar parches de seguridad mensualmente bajo un plan de gestión de vulnerabilidades [op.exp.8].
 
 ---
 
 ### Hallazgo 2
 
-- **Nombre del Hallazgo:** 
-- **Nivel de Riesgo:**  
-- **Condición (Lo que es):** 
-- **Criterio (Lo que debería ser):**   
-- **Causa:** 
-- **Consecuencia e Impacto:** 
-- **Plan de Acción (Recomendación):** 
+- **Nombre del Hallazgo:** Servidor SQL obsoleto
+- **Nivel de Riesgo:** Alto (Riesgo Potencial 80.0)
+- **Condición (Lo que es):** La base de datos que almacena los datos de negocio ejecuta una versión antigua y sin soporte del motor SQL.
+- **Criterio (Lo que debería ser):** Los sistemas que alojan información crítica (confidencialidad alta) deben estar actualizados y recibir parches de seguridad de forma continua.
+- **Causa:** Ausencia de procesos de actualización y mantenimiento en la capa de persistencia de datos; probablemente se priorizó la compatibilidad de la aplicación sobre la seguridad.
+- **Consecuencia e Impacto:** Un atacante puede explotar vulnerabilidades conocidas en versiones obsoletas del motor SQL para realizar inyecciones SQL, escalar privilegios y extraer información confidencial. Esto expone a Black Mamba a filtraciones de datos, sanciones regulatorias (RGPD), pérdidas económicas y daños reputacionales.
+- **Plan de Acción (Recomendación):** Actualizar el motor de base de datos a una versión estable y con soporte activo, realizando pruebas de compatibilidad previas en un entorno de ensayo [op.exp.8].
 
 ---
 
 ### Hallazgo 3
 
-- **Nombre del Hallazgo:** 
-- **Nivel de Riesgo:**  
-- **Condición (Lo que es):** 
-- **Criterio (Lo que debería ser):**   
-- **Causa:** 
-- **Consecuencia e Impacto:** 
-- **Plan de Acción (Recomendación):** 
+- **Nombre del Hallazgo:** WordPress desactualizado con vulnerabilidades activas
+- **Nivel de Riesgo:** Alto (Riesgo Potencial 72.0)
+- **Condición (Lo que es):** El sitio web utiliza WordPress 6.5.8, una versión que presenta vulnerabilidades conocidas de tipo SSRF y XSS.
+- **Criterio (Lo que debería ser):** Las aplicaciones web expuestas a Internet deben mantenerse actualizadas a la última versión estable para evitar vectores de ataque conocidos.
+- **Causa:** Falta de un proceso de actualización continua del CMS y sus componentes; probablemente se aplican actualizaciones únicamente de forma reactiva.
+- **Consecuencia e Impacto:** Un atacante podría explotar la vulnerabilidad SSRF para acceder a recursos internos o servicios restringidos, o aprovechar el XSS para secuestrar sesiones de administradores, robar cookies y tomar el control del sitio web, afectando la disponibilidad y confidencialidad de los datos.
+- **Plan de Acción (Recomendación):** Actualizar WordPress a la última versión estable, establecer un calendario de actualizaciones periódicas y habilitar actualizaciones automáticas de seguridad [op.exp.8].
 
 ---
 
