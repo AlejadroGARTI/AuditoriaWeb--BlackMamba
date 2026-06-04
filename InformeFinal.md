@@ -34,8 +34,6 @@ Se ha auditado el servidor principal con sistema operativo Ubuntu 16.04, el midd
 - Inspección manual de configuración de WordPress (ver evidencias visuales)
 - Análisis de cabeceras HTTP 
 
-Estas herramientas han sido utilizadas para la recolección de evidencias técnicas, análisis de vulnerabilidades y validación de hallazgos.
-
 ---
 
 ## Top 3 Hallazgos Críticos
