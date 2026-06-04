@@ -31,9 +31,8 @@ Se ha auditado el servidor principal con sistema operativo Ubuntu 16.04, el midd
 - Controles del Esquema Nacional de Seguridad (ENS)
 
 ### Herramientas utilizadas
-- Inspección manual de configuración de WordPress (temas activos/inactivos, plugins recomendados).
-- Análisis de cabeceras HTTP y respuesta del servidor para detectar ausencia de caché
-
+- Inspección manual de configuración de WordPress (ver evidencias visuales)
+- Análisis de cabeceras HTTP 
 
 Estas herramientas han sido utilizadas para la recolección de evidencias técnicas, análisis de vulnerabilidades y validación de hallazgos.
 
@@ -48,7 +47,7 @@ Estas herramientas han sido utilizadas para la recolección de evidencias técni
 - **Condición (Lo que es):** El servidor ejecuta PHP 7.0.33-0ubuntu0.16.04.16, una versión lanzada en 2018 que ya no recibe parches de seguridad.
 - **Criterio (Lo que debería ser):**  Todo software en producción debe mantenerse en versiones soportadas por el fabricante y con parches de seguridad aplicados periódicamente. 
 - **Causa:** Falta de un plan de actualización y mantenimiento del software base; probablemente se priorizó la estabilidad funcional sobre la seguridad.
-- **Consecuencia e Impacto:**  Un atacante remoto puede explotar vulnerabilidades críticas conocidas (ej. CVE-2018-19518, inyección de comandos en imap_open) para ejecutar comandos arbitrarios, tomar control del servidor, robar o destruir datos de negocio.
+- **Consecuencia e Impacto:**  Un atacante remoto puede explotar vulnerabilidades críticas conocidas (como el CVE-2018-19518, inyección de comandos en imap_open) para ejecutar comandos arbitrarios, tomar control del servidor, robar o destruir datos de negocio.
 - **Plan de Acción (Recomendación):** Actualizar PHP a una versión soportada (8.x) y aplicar parches de seguridad mensualmente bajo un plan de gestión de vulnerabilidades [op.exp.8].
 
 ---
