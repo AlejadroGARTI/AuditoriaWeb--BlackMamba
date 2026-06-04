@@ -5,7 +5,7 @@
 ## Cliente
 
 - **Cliente:** Black Mamba  
-- **Fecha de emisión:** 21/05/2026  
+- **Fecha de emisión:** 04/06/2026  
 - **Auditor Jefe:** Alejandro Gutiérrez Alañón 
 - **Clasificación del Documento:** CONFIDENCIAL  
 
